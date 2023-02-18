@@ -1,0 +1,11 @@
+
+
+cxx_binary(
+    name = "hello_buck",
+    headers = [],
+    srcs = [
+        "main.cpp"
+    ],
+    deps = [],
+    visibility = [ "PUBLIC" ]
+)
